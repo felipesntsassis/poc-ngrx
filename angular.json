@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +93,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "poc-ngrx"
+    }
+  },
+  "defaultProject": "poc-ngrx",
+  "cli": {
+    "analytics": "38502ee1-f542-4c32-865a-10c25d97449c"
+  }
 }
